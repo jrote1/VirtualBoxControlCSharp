@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualBoxControlCSharp", "VirtualBoxControlCSharp\VirtualBoxControlCSharp.csproj", "{56D6284B-38F5-4978-A3C6-518AFE181D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualBoxControlCSharpTests", "VirtualBoxControlCSharpTests\VirtualBoxControlCSharpTests.csproj", "{54B44CA6-53F5-466D-9B76-358545DB2550}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56D6284B-38F5-4978-A3C6-518AFE181D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D6284B-38F5-4978-A3C6-518AFE181D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D6284B-38F5-4978-A3C6-518AFE181D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D6284B-38F5-4978-A3C6-518AFE181D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B44CA6-53F5-466D-9B76-358545DB2550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B44CA6-53F5-466D-9B76-358545DB2550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B44CA6-53F5-466D-9B76-358545DB2550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B44CA6-53F5-466D-9B76-358545DB2550}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
