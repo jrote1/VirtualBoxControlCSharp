@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Practices.ServiceLocation;
@@ -14,6 +15,7 @@ namespace VirtualBoxControlCSharp.DI
         public static void Initialize()
         {
             var kernel = new StandardKernel();
+            kernel.Load(Assembly.GetExecutingAssembly());
             var locator = new NinjectServiceLocator(kernel);
             ServiceLocator.SetLocatorProvider(() => locator);
         }
